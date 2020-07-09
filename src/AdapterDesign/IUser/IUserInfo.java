@@ -17,3 +17,4 @@ public interface IUserInfo {
 
     String getHomeTelNumber();
 }
+

@@ -3,7 +3,7 @@ package StrategyDesign.GeneralSource;
 /**
  *  具体的运算法则
  */
-public class CocreteStrategy2 implements Strategy {
+public class ConcreteStrategy2 implements Strategy {
 
     @Override
     public void doSomething() {

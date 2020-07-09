@@ -22,7 +22,7 @@ public class OuterUserInfoAdapter implements IUserInfo {
     private Map homeMap = null;
     private Map officeMap = null;
 
-    // 构造函数传递对象
+    // 构造函数传递对象   (依赖关系)
     public OuterUserInfoAdapter(IOuterUserBaseInfo _baseInfo, IOuterUserHomeInfo _homeInfo, IOuterUserOfficeInfo _officeInfo) {
         this.baseInfo = _baseInfo;
         this.homeInfo = _homeInfo;
