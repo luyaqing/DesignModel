@@ -1,4 +1,6 @@
-package ChainOfResposibility;
+package ChainOfResposibility.handle;
+
+import ChainOfResposibility.women.IWomen;
 
 /**
  * @Description TODO

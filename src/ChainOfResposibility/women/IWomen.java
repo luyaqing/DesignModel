@@ -1,4 +1,4 @@
-package ChainOfResposibility;
+package ChainOfResposibility.women;
 
 /**
  * 女性接口

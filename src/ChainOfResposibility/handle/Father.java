@@ -1,4 +1,6 @@
-package ChainOfResposibility;
+package ChainOfResposibility.handle;
+
+import ChainOfResposibility.women.IWomen;
 
 /**
  * @Description 父亲类
@@ -11,7 +13,7 @@ public class Father extends Handler{
 
     // 重写或者调用父类的构造器即可。 必须要调用
     public Father() {
-        super(Handler.FATHER_LEVEL_REQUIEST);
+        super(Handler.FATHER_LEVEL_REQUEST);
     }
 
     @Override

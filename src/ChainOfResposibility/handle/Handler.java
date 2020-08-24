@@ -1,11 +1,13 @@
-package ChainOfResposibility;
+package ChainOfResposibility.handle;
+
+import ChainOfResposibility.women.IWomen;
 
 /**
  * Handler抽象类
  */
 public abstract class Handler {
 
-    public final static int FATHER_LEVEL_REQUIEST = 1;
+    public final static int FATHER_LEVEL_REQUEST = 1;
 
     public final static int HUSBAND_LEVEL_REQUEST = 2;
 
@@ -23,7 +25,7 @@ public abstract class Handler {
         this.level = _level;
     }
 
-    // 一个女性 (女儿、妻子或者是母亲) 要求逛街，你要处理这个请求
+    // 一个女性 (女儿、妻子或者是母亲) 要求逛街，你要处理这个请求； 注意是final的方法
     public final void handleMessage(IWomen women) {
 
         if (women.getType() == this.level) {
@@ -49,6 +51,7 @@ public abstract class Handler {
     }
 
     public void setNext(Handler _handler) {
+        // 可以在这里控制链的长度
 
         this.nextHandler = _handler;
 

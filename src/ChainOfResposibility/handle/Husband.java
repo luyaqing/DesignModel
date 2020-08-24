@@ -1,5 +1,7 @@
-package ChainOfResposibility;
+package ChainOfResposibility.handle;
 
+
+import ChainOfResposibility.women.IWomen;
 
 /**
  * @Description  丈夫

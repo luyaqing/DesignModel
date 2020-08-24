@@ -14,12 +14,12 @@ import CommandDesignModel.Group.RequirementGroup;
 public abstract class Command {
 
     // 这里的就是接受者 receiver对象，即最终的调用对象
-    protected RequirementGroup requirementGroup = new RequirementGroup();
+    protected final RequirementGroup requirementGroup = new RequirementGroup();
 
     protected PageGroup pageGroup = new PageGroup();
 
     protected CodeGroup codeGroup = new CodeGroup();
 
-    // 执行、处死
+    // execute的意思：执行、处死，这里取执行的意思
     public abstract void execute();
 }

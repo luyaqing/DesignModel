@@ -19,6 +19,7 @@ public abstract class Group {
     public abstract void plan();
 
     public void rollback() {
-        // 根据事务日志进行回滚
+        // 根据事务日志进行回滚， 这个的实现比较复杂了
+
     }
 }
