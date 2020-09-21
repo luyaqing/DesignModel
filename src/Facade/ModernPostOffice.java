@@ -1,7 +1,7 @@
 package Facade;
 
 /**
- * @Description 现在邮局
+ * @Description 现代邮局
  * @Author BG362793
  * @Date 2020-08-28 9:28
  * @Version 1.0
