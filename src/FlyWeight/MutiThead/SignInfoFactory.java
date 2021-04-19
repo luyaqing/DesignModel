@@ -15,7 +15,7 @@ import java.util.HashMap;
 public class SignInfoFactory {
 
     // 池对象
-    private static HashMap<String, SignInfo> pool = new HashMap<String, SignInfo>();
+    public static HashMap<String, SignInfo> pool = new HashMap<String, SignInfo>();
 
     public static SignInfo getSignInfo(String key) {
 

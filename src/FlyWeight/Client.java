@@ -20,5 +20,7 @@ public class Client {
         }
 
         SignInfo signInfo = SignInfoFactory.getSignInfo("科目1考试地点1");
+
+        System.out.println(signInfo.getExtrinsicState());
     }
 }

@@ -19,6 +19,7 @@ public class Client {
 
         // 取得对象
         SignInfo signInfo = SignInfoFactory.getSignInfo("科目2");
+        int a = 0;
         while (true) {
             signInfo.setId("ZhangSan");
             signInfo.setLocation("ZhangSan");
@@ -27,6 +28,15 @@ public class Client {
             signInfo.setId("LiSi");
             signInfo.setLocation("LiSi");
             (new MultiThread(signInfo)).start();
+
+            System.out.println(a);
+            a++;
         }
     }
 }
+
+/**
+ *  这个方法执行多次之后，肯定会出现线程安全的问题；
+ *  一次不一定会出现，但是一旦出现了，肯定是问题很大
+ *
+ */
