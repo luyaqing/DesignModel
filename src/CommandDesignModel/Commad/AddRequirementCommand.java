@@ -8,7 +8,7 @@ package CommandDesignModel.Commad;
  */
 public class AddRequirementCommand extends Command{
 
-    // 这里也可以引入接受者， 那么不需要从父类调用接受者了
+    // 这里也可以引入接收者， 那么不需要从父类调用接受者了
     @Override
     public void execute() {
 

@@ -9,9 +9,9 @@ import ChainOfResposibility.women.IWomen;
  * @Date 2020-08-18 14:24
  * @Version 1.0
  */
-public class Husband extends Handler {
+public class HusbandHandler extends Handler {
 
-    public Husband() {
+    public HusbandHandler() {
 
         super(Handler.HUSBAND_LEVEL_REQUEST);
     }

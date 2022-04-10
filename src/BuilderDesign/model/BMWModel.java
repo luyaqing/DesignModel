@@ -1,4 +1,4 @@
-package BuilderDesign;
+package BuilderDesign.model;
 
 /**
  * @Description TODO

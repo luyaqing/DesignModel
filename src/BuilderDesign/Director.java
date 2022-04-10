@@ -1,5 +1,10 @@
 package BuilderDesign;
 
+import BuilderDesign.builder.BMWBuilder;
+import BuilderDesign.builder.BenzBuilder;
+import BuilderDesign.model.BMWModel;
+import BuilderDesign.model.BenzModel;
+
 import java.util.ArrayList;
 
 /**
@@ -14,7 +19,7 @@ public class Director {
 
     private BenzBuilder benzBuilder = new BenzBuilder();
 
-    private  BMWBuilder bmwBuilder = new BMWBuilder();
+    private BMWBuilder bmwBuilder = new BMWBuilder();
 
 
     public BenzModel getABenzModel() {

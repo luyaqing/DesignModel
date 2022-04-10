@@ -8,10 +8,10 @@ import ChainOfResposibility.women.IWomen;
  * @Date 2020-08-18 14:26
  * @Version 1.0
  */
-public class Son extends Handler {
+public class SonHandler extends Handler {
 
 
-    public Son() {
+    public SonHandler() {
         super(Handler.SON_LEVEL_REQUEST);
     }
 

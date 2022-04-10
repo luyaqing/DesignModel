@@ -1,9 +1,9 @@
 package ChainOfResposibility;
 
-import ChainOfResposibility.handle.Father;
+import ChainOfResposibility.handle.FatherHandler;
 import ChainOfResposibility.handle.Handler;
-import ChainOfResposibility.handle.Husband;
-import ChainOfResposibility.handle.Son;
+import ChainOfResposibility.handle.HusbandHandler;
+import ChainOfResposibility.handle.SonHandler;
 import ChainOfResposibility.women.IWomen;
 import ChainOfResposibility.women.Women;
 
@@ -28,9 +28,9 @@ public class Client {
         }
 
         // 定义三个请求对象
-        Handler father = new Father();
-        Handler husband = new Husband();
-        Handler son = new Son();
+        Handler father = new FatherHandler();
+        Handler husband = new HusbandHandler();
+        Handler son = new SonHandler();
 
         // 设置请示的顺序
         father.setNext(husband);

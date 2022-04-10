@@ -8,11 +8,11 @@ import ChainOfResposibility.women.IWomen;
  * @Date 2020-08-18 14:19
  * @Version 1.0
  */
-public class Father extends Handler{
+public class FatherHandler extends Handler{
 
 
     // 重写或者调用父类的构造器即可。 必须要调用
-    public Father() {
+    public FatherHandler() {
         super(Handler.FATHER_LEVEL_REQUEST);
     }
 
